@@ -1,0 +1,10 @@
+{
+  "name": "my-vercel-website",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "vercel": "^28.0.0"
+  }
+}

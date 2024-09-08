@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "public/index.html", "use": "@vercel/static" },
+      { "src": "api/submit-form.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/submit-form", "dest": "/api/submit-form.js" },
+      { "src": "/(.*)", "dest": "/public/$1" }
+    ]
+  }
+  
